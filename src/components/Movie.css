@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px 0 #555;
+}
+
+
+
+.appname{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+
+.movieimage{
+    width: 48px;
+    height: 48px;
+    margin: 15px;
+}
+
+
+.searchbox{
+    display:flex;
+    flex-direction: row;
+    padding:10px 10px;
+    background-color: white;
+    border-radius:6px;
+    margin-left: 20px;
+    width:50%;
+    background-color: white;
+    align-items: center;
+}
+
+.searchicon{
+    display:flex;
+          flex-direction: row;
+          padding:10px 10px;
+          background-color: white;
+}
+
+.searchinput{
+    color:black;
+    font-size:16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-left:15px;
+}
+
+.movielist_container{
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content:space-evenly;
+    gap: 24px;
+}
